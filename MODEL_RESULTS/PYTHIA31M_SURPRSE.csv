@@ -1,0 +1,308 @@
+triplet_id,type,sentence,word,surprisal
+0,PV,The doctor is giving medicine to the old woman.,The,0.0
+0,PV,The doctor is giving medicine to the old woman.,doctor,13.90625
+0,PV,The doctor is giving medicine to the old woman.,is,4.46484375
+0,PV,The doctor is giving medicine to the old woman.,giving,10.640625
+0,PV,The doctor is giving medicine to the old woman.,medicine,11.40625
+0,PV,The doctor is giving medicine to the old woman.,to,2.501953125
+0,PV,The doctor is giving medicine to the old woman.,the,2.232421875
+0,PV,The doctor is giving medicine to the old woman.,old,10.9921875
+0,PV,The doctor is giving medicine to the old woman.,woman.,7.166015625
+0,IV,The doctor is welding medicine to the old woman.,The,0.0
+0,IV,The doctor is welding medicine to the old woman.,doctor,13.90625
+0,IV,The doctor is welding medicine to the old woman.,is,4.46484375
+0,IV,The doctor is welding medicine to the old woman.,welding,20.28125
+0,IV,The doctor is welding medicine to the old woman.,medicine,12.328125
+0,IV,The doctor is welding medicine to the old woman.,to,3.787109375
+0,IV,The doctor is welding medicine to the old woman.,the,3.470703125
+0,IV,The doctor is welding medicine to the old woman.,old,10.6171875
+0,IV,The doctor is welding medicine to the old woman.,woman.,8.724609375
+0,IO,The doctor is giving fire to the old woman.,The,0.0
+0,IO,The doctor is giving fire to the old woman.,doctor,13.90625
+0,IO,The doctor is giving fire to the old woman.,is,4.46484375
+0,IO,The doctor is giving fire to the old woman.,giving,10.640625
+0,IO,The doctor is giving fire to the old woman.,fire,14.9921875
+0,IO,The doctor is giving fire to the old woman.,to,2.3671875
+0,IO,The doctor is giving fire to the old woman.,the,2.05078125
+0,IO,The doctor is giving fire to the old woman.,old,9.640625
+0,IO,The doctor is giving fire to the old woman.,woman.,7.4375
+1,PV,A person is giving bread to a toddler.,A,0.0
+1,PV,A person is giving bread to a toddler.,person,12.3515625
+1,PV,A person is giving bread to a toddler.,is,4.03515625
+1,PV,A person is giving bread to a toddler.,giving,11.96875
+1,PV,A person is giving bread to a toddler.,bread,13.9453125
+1,PV,A person is giving bread to a toddler.,to,2.884765625
+1,PV,A person is giving bread to a toddler.,a,1.916015625
+1,PV,A person is giving bread to a toddler.,toddler.,14.1484375
+1,IV,A toddler is riding a  bread.,A,0.0
+1,IV,A toddler is riding a  bread.,toddler,21.359375
+1,IV,A toddler is riding a  bread.,is,4.5078125
+1,IV,A toddler is riding a  bread.,riding,11.6796875
+1,IV,A toddler is riding a  bread.,a,2.05078125
+1,IV,A toddler is riding a  bread.,bread.,29.3125
+1,IO,A person is giving a building to a toddler.,A,0.0
+1,IO,A person is giving a building to a toddler.,person,12.3515625
+1,IO,A person is giving a building to a toddler.,is,4.03515625
+1,IO,A person is giving a building to a toddler.,giving,11.96875
+1,IO,A person is giving a building to a toddler.,a,2.884765625
+1,IO,A person is giving a building to a toddler.,building,14.8515625
+1,IO,A person is giving a building to a toddler.,to,4.19140625
+1,IO,A person is giving a building to a toddler.,a,2.140625
+1,IO,A person is giving a building to a toddler.,toddler.,16.41796875
+2,PV,A man is giving a gift to a child.,A,0.0
+2,PV,A man is giving a gift to a child.,man,11.734375
+2,PV,A man is giving a gift to a child.,is,3.83203125
+2,PV,A man is giving a gift to a child.,giving,10.2578125
+2,PV,A man is giving a gift to a child.,a,3.22265625
+2,PV,A man is giving a gift to a child.,gift,7.77734375
+2,PV,A man is giving a gift to a child.,to,2.7734375
+2,PV,A man is giving a gift to a child.,a,2.728515625
+2,PV,A man is giving a gift to a child.,child.,7.552734375
+2,IV,A man is cooking a gift with a child.,A,0.0
+2,IV,A man is cooking a gift with a child.,man,11.734375
+2,IV,A man is cooking a gift with a child.,is,3.83203125
+2,IV,A man is cooking a gift with a child.,cooking,13.953125
+2,IV,A man is cooking a gift with a child.,a,2.83984375
+2,IV,A man is cooking a gift with a child.,gift,10.328125
+2,IV,A man is cooking a gift with a child.,with,6.5390625
+2,IV,A man is cooking a gift with a child.,a,1.578125
+2,IV,A man is cooking a gift with a child.,child.,12.21484375
+2,IO,A man is giving a bed to a child.,A,0.0
+2,IO,A man is giving a bed to a child.,man,11.734375
+2,IO,A man is giving a bed to a child.,is,3.83203125
+2,IO,A man is giving a bed to a child.,giving,10.2578125
+2,IO,A man is giving a bed to a child.,a,3.22265625
+2,IO,A man is giving a bed to a child.,bed,12.6015625
+2,IO,A man is giving a bed to a child.,to,3.810546875
+2,IO,A man is giving a bed to a child.,a,2.681640625
+2,IO,A man is giving a bed to a child.,child.,7.8671875
+3,PV,A woman is giving food to other people.,A,0.0
+3,PV,A woman is giving food to other people.,woman,11.9609375
+3,PV,A woman is giving food to other people.,is,3.990234375
+3,PV,A woman is giving food to other people.,giving,9.71875
+3,PV,A woman is giving food to other people.,food,9.109375
+3,PV,A woman is giving food to other people.,to,2.818359375
+3,PV,A woman is giving food to other people.,other,8.96875
+3,PV,A woman is giving food to other people.,people.,4.125
+3,IV,A woman is ironing the food.,A,0.0
+3,IV,A woman is ironing the food.,woman,11.9609375
+3,IV,A woman is ironing the food.,is,3.990234375
+3,IV,A woman is ironing the food.,ironing,21.29296875
+3,IV,A woman is ironing the food.,the,4.9140625
+3,IV,A woman is ironing the food.,food.,14.193359375
+3,IO,A woman is giving stones to other people.,A,0.0
+3,IO,A woman is giving stones to other people.,woman,11.9609375
+3,IO,A woman is giving stones to other people.,is,3.990234375
+3,IO,A woman is giving stones to other people.,giving,9.71875
+3,IO,A woman is giving stones to other people.,stones,15.2734375
+3,IO,A woman is giving stones to other people.,to,2.63671875
+3,IO,A woman is giving stones to other people.,other,9.3125
+3,IO,A woman is giving stones to other people.,people.,4.216796875
+4,PV,A person is giving money to another person.,A,0.0
+4,PV,A person is giving money to another person.,person,12.3515625
+4,PV,A person is giving money to another person.,is,4.03515625
+4,PV,A person is giving money to another person.,giving,11.96875
+4,PV,A person is giving money to another person.,money,5.20703125
+4,PV,A person is giving money to another person.,to,1.8935546875
+4,PV,A person is giving money to another person.,another,5.58984375
+4,PV,A person is giving money to another person.,person.,3.876953125
+4,IV,A person is eating money.,A,0.0
+4,IV,A person is eating money.,person,12.3515625
+4,IV,A person is eating money.,is,4.03515625
+4,IV,A person is eating money.,eating,15.0703125
+4,IV,A person is eating money.,money.,13.390625
+4,IO,A person is giving molten lava to another person.,A,0.0
+4,IO,A person is giving molten lava to another person.,person,12.3515625
+4,IO,A person is giving molten lava to another person.,is,4.03515625
+4,IO,A person is giving molten lava to another person.,giving,11.96875
+4,IO,A person is giving molten lava to another person.,molten,19.296875
+4,IO,A person is giving molten lava to another person.,lava,9.71875
+4,IO,A person is giving molten lava to another person.,to,2.884765625
+4,IO,A person is giving molten lava to another person.,another,6.8515625
+4,IO,A person is giving molten lava to another person.,person.,5.41015625
+5,PV,A person is putting a cellular telephone inside his pocket.,A,0.0
+5,PV,A person is putting a cellular telephone inside his pocket.,person,12.3515625
+5,PV,A person is putting a cellular telephone inside his pocket.,is,4.03515625
+5,PV,A person is putting a cellular telephone inside his pocket.,putting,14.0078125
+5,PV,A person is putting a cellular telephone inside his pocket.,a,2.388671875
+5,PV,A person is putting a cellular telephone inside his pocket.,cellular,15.1953125
+5,PV,A person is putting a cellular telephone inside his pocket.,telephone,7.55078125
+5,PV,A person is putting a cellular telephone inside his pocket.,inside,9.6953125
+5,PV,A person is putting a cellular telephone inside his pocket.,his,5.76953125
+5,PV,A person is putting a cellular telephone inside his pocket.,pocket.,8.6328125
+5,IV,A person is watering a cellular telephone.,A,0.0
+5,IV,A person is watering a cellular telephone.,person,12.3515625
+5,IV,A person is watering a cellular telephone.,is,4.03515625
+5,IV,A person is watering a cellular telephone.,watering,22.5703125
+5,IV,A person is watering a cellular telephone.,a,3.021484375
+5,IV,A person is watering a cellular telephone.,cellular,12.6796875
+5,IV,A person is watering a cellular telephone.,telephone.,10.6875
+5,IO,A person is putting a gas cylinder inside his pocket.,A,0.0
+5,IO,A person is putting a gas cylinder inside his pocket.,person,12.3515625
+5,IO,A person is putting a gas cylinder inside his pocket.,is,4.03515625
+5,IO,A person is putting a gas cylinder inside his pocket.,putting,14.0078125
+5,IO,A person is putting a gas cylinder inside his pocket.,a,2.388671875
+5,IO,A person is putting a gas cylinder inside his pocket.,gas,10.3046875
+5,IO,A person is putting a gas cylinder inside his pocket.,cylinder,10.9453125
+5,IO,A person is putting a gas cylinder inside his pocket.,inside,6.46875
+5,IO,A person is putting a gas cylinder inside his pocket.,his,6.37890625
+5,IO,A person is putting a gas cylinder inside his pocket.,pocket.,9.556640625
+6,PV,A man is putting a bag inside a car.,A,0.0
+6,PV,A man is putting a bag inside a car.,man,11.734375
+6,PV,A man is putting a bag inside a car.,is,3.83203125
+6,PV,A man is putting a bag inside a car.,putting,11.3125
+6,PV,A man is putting a bag inside a car.,a,2.5703125
+6,PV,A man is putting a bag inside a car.,bag,8.359375
+6,PV,A man is putting a bag inside a car.,inside,8.1171875
+6,PV,A man is putting a bag inside a car.,a,3.5390625
+6,PV,A man is putting a bag inside a car.,car.,8.25
+6,IV,A man is feeding a bag inside a car.,A,0.0
+6,IV,A man is feeding a bag inside a car.,man,11.734375
+6,IV,A man is feeding a bag inside a car.,is,3.83203125
+6,IV,A man is feeding a bag inside a car.,feeding,13.1796875
+6,IV,A man is feeding a bag inside a car.,a,4.171875
+6,IV,A man is feeding a bag inside a car.,bag,7.95703125
+6,IV,A man is feeding a bag inside a car.,inside,10.34375
+6,IV,A man is feeding a bag inside a car.,a,2.5703125
+6,IV,A man is feeding a bag inside a car.,car.,8.92578125
+6,IO,A man is putting a car inside a car.,A,0.0
+6,IO,A man is putting a car inside a car.,man,11.734375
+6,IO,A man is putting a car inside a car.,is,3.83203125
+6,IO,A man is putting a car inside a car.,putting,11.3125
+6,IO,A man is putting a car inside a car.,a,2.5703125
+6,IO,A man is putting a car inside a car.,car,8.6796875
+6,IO,A man is putting a car inside a car.,inside,7.95703125
+6,IO,A man is putting a car inside a car.,a,3.404296875
+6,IO,A man is putting a car inside a car.,car.,5.18359375
+7,PV,A woman is  putting a dish inside an oven.,A,0.0
+7,PV,A woman is  putting a dish inside an oven.,woman,11.9609375
+7,PV,A woman is  putting a dish inside an oven.,is,3.990234375
+7,PV,A woman is  putting a dish inside an oven.,putting,28.41015625
+7,PV,A woman is  putting a dish inside an oven.,a,2.9296875
+7,PV,A woman is  putting a dish inside an oven.,dish,13.109375
+7,PV,A woman is  putting a dish inside an oven.,inside,8.703125
+7,PV,A woman is  putting a dish inside an oven.,an,6.35546875
+7,PV,A woman is  putting a dish inside an oven.,oven.,7.03125
+7,IV,A woman is entering an oven.,A,0.0
+7,IV,A woman is entering an oven.,woman,11.9609375
+7,IV,A woman is entering an oven.,is,3.990234375
+7,IV,A woman is entering an oven.,entering,12.21875
+7,IV,A woman is entering an oven.,an,4.5078125
+7,IV,A woman is entering an oven.,oven.,17.4453125
+7,IO,A woman is  putting a door inside an oven.,A,0.0
+7,IO,A woman is  putting a door inside an oven.,woman,11.9609375
+7,IO,A woman is  putting a door inside an oven.,is,3.990234375
+7,IO,A woman is  putting a door inside an oven.,putting,28.41015625
+7,IO,A woman is  putting a door inside an oven.,a,2.9296875
+7,IO,A woman is  putting a door inside an oven.,door,9.828125
+7,IO,A woman is  putting a door inside an oven.,inside,7.75390625
+7,IO,A woman is  putting a door inside an oven.,an,6.55859375
+7,IO,A woman is  putting a door inside an oven.,oven.,12.375
+8,PV,A man is putting money in a piggy bank.,A,0.0
+8,PV,A man is putting money in a piggy bank.,man,11.734375
+8,PV,A man is putting money in a piggy bank.,is,3.83203125
+8,PV,A man is putting money in a piggy bank.,putting,11.3125
+8,PV,A man is putting money in a piggy bank.,money,6.17578125
+8,PV,A man is putting money in a piggy bank.,in,2.818359375
+8,PV,A man is putting money in a piggy bank.,a,2.998046875
+8,PV,A man is putting money in a piggy bank.,piggy,14.525390625
+8,PV,A man is putting money in a piggy bank.,bank.,6.44921875
+8,IV,A man is pouring money in a piggy bank.,A,0.0
+8,IV,A man is pouring money in a piggy bank.,man,11.734375
+8,IV,A man is pouring money in a piggy bank.,is,3.83203125
+8,IV,A man is pouring money in a piggy bank.,pouring,13.078125
+8,IV,A man is pouring money in a piggy bank.,money,7.234375
+8,IV,A man is pouring money in a piggy bank.,in,4.3046875
+8,IV,A man is pouring money in a piggy bank.,a,2.818359375
+8,IV,A man is pouring money in a piggy bank.,piggy,12.958984375
+8,IV,A man is pouring money in a piggy bank.,bank.,6.513671875
+8,IO,A man is putting book in a piggy bank.,A,0.0
+8,IO,A man is putting book in a piggy bank.,man,11.734375
+8,IO,A man is putting book in a piggy bank.,is,3.83203125
+8,IO,A man is putting book in a piggy bank.,putting,11.3125
+8,IO,A man is putting book in a piggy bank.,book,14.7109375
+8,IO,A man is putting book in a piggy bank.,in,4.08203125
+8,IO,A man is putting book in a piggy bank.,a,2.974609375
+8,IO,A man is putting book in a piggy bank.,piggy,15.599609375
+8,IO,A man is putting book in a piggy bank.,bank.,7.70703125
+9,PV,A person is dropping a coin in a glass jar.,A,0.0
+9,PV,A person is dropping a coin in a glass jar.,person,12.3515625
+9,PV,A person is dropping a coin in a glass jar.,is,4.03515625
+9,PV,A person is dropping a coin in a glass jar.,dropping,17.703125
+9,PV,A person is dropping a coin in a glass jar.,a,2.794921875
+9,PV,A person is dropping a coin in a glass jar.,coin,10.2265625
+9,PV,A person is dropping a coin in a glass jar.,in,4.59765625
+9,PV,A person is dropping a coin in a glass jar.,a,2.029296875
+9,PV,A person is dropping a coin in a glass jar.,glass,11.28125
+9,PV,A person is dropping a coin in a glass jar.,jar.,8.408203125
+9,IV,A person is growing coins in a glass jar.,A,0.0
+9,IV,A person is growing coins in a glass jar.,person,12.3515625
+9,IV,A person is growing coins in a glass jar.,is,4.03515625
+9,IV,A person is growing coins in a glass jar.,growing,15.1484375
+9,IV,A person is growing coins in a glass jar.,coins,17.46875
+9,IV,A person is growing coins in a glass jar.,in,3.697265625
+9,IV,A person is growing coins in a glass jar.,a,2.953125
+9,IV,A person is growing coins in a glass jar.,glass,11.984375
+9,IV,A person is growing coins in a glass jar.,jar.,8.294921875
+9,IO,A person is dropping a large stone in a glass jar.,A,0.0
+9,IO,A person is dropping a large stone in a glass jar.,person,12.3515625
+9,IO,A person is dropping a large stone in a glass jar.,is,4.03515625
+9,IO,A person is dropping a large stone in a glass jar.,dropping,17.703125
+9,IO,A person is dropping a large stone in a glass jar.,a,2.794921875
+9,IO,A person is dropping a large stone in a glass jar.,large,7.484375
+9,IO,A person is dropping a large stone in a glass jar.,stone,11.203125
+9,IO,A person is dropping a large stone in a glass jar.,in,4.59765625
+9,IO,A person is dropping a large stone in a glass jar.,a,2.119140625
+9,IO,A person is dropping a large stone in a glass jar.,glass,7.14453125
+9,IO,A person is dropping a large stone in a glass jar.,jar.,6.421875
+10,PV,A pitcher is throwing a ball to a catcher.,A,0.0
+10,PV,A pitcher is throwing a ball to a catcher.,pitcher,19.03125
+10,PV,A pitcher is throwing a ball to a catcher.,is,5.23046875
+10,PV,A pitcher is throwing a ball to a catcher.,throwing,9.3984375
+10,PV,A pitcher is throwing a ball to a catcher.,a,2.388671875
+10,PV,A pitcher is throwing a ball to a catcher.,ball,4.6875
+10,PV,A pitcher is throwing a ball to a catcher.,to,5.25390625
+10,PV,A pitcher is throwing a ball to a catcher.,a,2.546875
+10,PV,A pitcher is throwing a ball to a catcher.,catcher.,10.09765625
+10,IV,A pitcher is stretching a ball.,A,0.0
+10,IV,A pitcher is stretching a ball.,pitcher,19.03125
+10,IV,A pitcher is stretching a ball.,is,5.23046875
+10,IV,A pitcher is stretching a ball.,stretching,15.5
+10,IV,A pitcher is stretching a ball.,a,3.876953125
+10,IV,A pitcher is stretching a ball.,ball.,11.87890625
+10,IO,A pitcher is throwing a anvil to a catcher.,A,0.0
+10,IO,A pitcher is throwing a anvil to a catcher.,pitcher,19.03125
+10,IO,A pitcher is throwing a anvil to a catcher.,is,5.23046875
+10,IO,A pitcher is throwing a anvil to a catcher.,throwing,9.3984375
+10,IO,A pitcher is throwing a anvil to a catcher.,a,2.388671875
+10,IO,A pitcher is throwing a anvil to a catcher.,anvil,25.2890625
+10,IO,A pitcher is throwing a anvil to a catcher.,to,4.890625
+10,IO,A pitcher is throwing a anvil to a catcher.,a,3.83203125
+10,IO,A pitcher is throwing a anvil to a catcher.,catcher.,11.6318359375
+11,PV,A dart player is throwing  a dart at a target.,A,0.0
+11,PV,A dart player is throwing  a dart at a target.,dart,19.71875
+11,PV,A dart player is throwing  a dart at a target.,player,10.7109375
+11,PV,A dart player is throwing  a dart at a target.,is,4.3046875
+11,PV,A dart player is throwing  a dart at a target.,throwing,10.6640625
+11,PV,A dart player is throwing  a dart at a target.,a,10.59375
+11,PV,A dart player is throwing  a dart at a target.,dart,12.08203125
+11,PV,A dart player is throwing  a dart at a target.,at,7.62109375
+11,PV,A dart player is throwing  a dart at a target.,a,2.5703125
+11,PV,A dart player is throwing  a dart at a target.,target.,10.955078125
+11,IV,A dart player is eating  a dart.,A,0.0
+11,IV,A dart player is eating  a dart.,dart,19.71875
+11,IV,A dart player is eating  a dart.,player,10.7109375
+11,IV,A dart player is eating  a dart.,is,4.3046875
+11,IV,A dart player is eating  a dart.,eating,14.6953125
+11,IV,A dart player is eating  a dart.,a,11.71875
+11,IV,A dart player is eating  a dart.,dart.,20.109375
+11,IO,A dart player is throwing a dumbell at a target.,A,0.0
+11,IO,A dart player is throwing a dumbell at a target.,dart,19.71875
+11,IO,A dart player is throwing a dumbell at a target.,player,10.7109375
+11,IO,A dart player is throwing a dumbell at a target.,is,4.3046875
+11,IO,A dart player is throwing a dumbell at a target.,throwing,10.6640625
+11,IO,A dart player is throwing a dumbell at a target.,a,2.63671875
+11,IO,A dart player is throwing a dumbell at a target.,dumbell,25.0078125
+11,IO,A dart player is throwing a dumbell at a target.,at,5.00390625
+11,IO,A dart player is throwing a dumbell at a target.,a,2.83984375
+11,IO,A dart player is throwing a dumbell at a target.,target.,9.806640625
