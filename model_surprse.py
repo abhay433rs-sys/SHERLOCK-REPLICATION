@@ -3,7 +3,7 @@ from minicons import scorer
 
 
 
-# 1. Load OLMo-2-1124-7B
+# 1. Load Model
 model = scorer.IncrementalLMScorer(
     "Qwen/Qwen2-0.5B",
     device="cpu"
@@ -31,7 +31,7 @@ df = df.reset_index(drop=True)
 
 # 5. Build sentence list INTERLEAVED by row/triplet:
 sentences = []
-meta = []  # parallel list: (triplet_id, sentence_type) for each entry in `sentences`
+meta = [] 
 
 for row_id, row in df.iterrows():
     for stype in ["PV", "IV", "IO"]:
@@ -59,7 +59,7 @@ def strip_marker(token):
     return token
 
 
-# 7. Helper: align tokens to whitespace-split words (robust to Ġ inconsistencies)
+# 7. Align tokens to whitespace-split words.
 def tokens_to_words_aligned(sentence, sentence_scores):
 
     target_words = sentence.split()
@@ -93,7 +93,7 @@ def tokens_to_words_aligned(sentence, sentence_scores):
     return words_out
 
 
-# 8. Print + collect results, grouped triplet by triplet
+# 8. Print results
 all_results = []
 current_triplet = None
 
@@ -127,7 +127,7 @@ for (row_id, stype), sentence, sentence_scores in zip(meta, sentences, scores):
     print(f"\nTotal Surprisal   : {total_surprisal:.4f} bits")
     print(f"Avg Surprisal/Word: {avg_surprisal:.4f} bits\n")
 
-# 9. Save results, sorted by triplet then type (PV, IV, IO order preserved)
+# 9. Save results
 results_df = pd.DataFrame(all_results)
 
 type_order = {"PV": 0, "IV": 1, "IO": 2}
