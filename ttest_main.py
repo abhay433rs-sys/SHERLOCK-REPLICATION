@@ -3,18 +3,15 @@ import numpy as np
 from pathlib import Path
 from scipy.stats import ttest_rel
 
-# ============================================================
+
 # CHANGE THESE PATHS
-# ============================================================
 INPUT_DIR = Path(r"E:\Project LLM\Model_test\MODEL_RESULTS")
 FILE_PATTERN = "*_SURPRSE.csv"
 
 OUTPUT_DIR = Path(r"E:\Project LLM\Model_test\STAT")
 
 
-# ============================================================
 # 1. Load and combine all per-model files
-# ============================================================
 all_files = sorted(INPUT_DIR.glob(FILE_PATTERN))
 
 dfs = []
@@ -27,9 +24,8 @@ for f in all_files:
 all_word_surprisals = pd.concat(dfs, ignore_index=True)
 
 
-# ============================================================
+
 # 2. Collapse word-level rows -> sentence-level average surprisal
-# ============================================================
 sentence_surprisal = (
     all_word_surprisals
     .groupby(["model", "triplet_id", "type", "sentence"])["surprisal"]
@@ -38,9 +34,7 @@ sentence_surprisal = (
 )
 
 
-# ============================================================
 # 3. Pivot wide -> PV / IV / IO columns, compute differences
-# ============================================================
 surprisal_wide = (
     sentence_surprisal
     .pivot_table(index=["model", "triplet_id"], columns="type", values="surprisal")
@@ -51,9 +45,7 @@ surprisal_wide["Diff_PVvIV"] = surprisal_wide["IV"] - surprisal_wide["PV"]
 surprisal_wide["Diff_PVvIO"] = surprisal_wide["IO"] - surprisal_wide["PV"]
 
 
-# ============================================================
 # 4. Paired t-test per model (PV vs IV, PV vs IO)
-# ============================================================
 results = []
 
 for model, group in surprisal_wide.groupby("model"):
@@ -82,8 +74,6 @@ for model, group in surprisal_wide.groupby("model"):
 ttest_results = pd.DataFrame(results)
 
 
-# ============================================================
-# 5. Save
-# ============================================================
-ttest_results.to_excel(OUTPUT_DIR / "ttest_results_ALL_MODELS_final_real.xlsx", index=False)
+# 5. Save results
+ttest_results.to_excel(OUTPUT_DIR / "ttest_results_ALL_MODELS.xlsx", index=False)
 print(ttest_results.to_string(index=False))
